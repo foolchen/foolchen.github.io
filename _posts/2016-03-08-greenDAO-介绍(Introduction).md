@@ -1,3 +1,8 @@
+---
+layout: post
+categories: [greenDAO]
+tags: [greenDAO,翻译]
+---
 #介绍(Introduction)
 ![](http://greenrobot.org/wordpress/wp-content/uploads/greenDAO-orm-640.png)
 greenDAO是一个针对Android的对象关系映射(ORM)工具.它向SQLite数据库提供了一个对象导向的接口.像greenDao这样的ORM工具不仅为你省去了很多的重复工作，而且提供了更简便的操作接口.
