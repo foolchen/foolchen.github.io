@@ -1,4 +1,4 @@
-name: 糊里糊涂
+name: 糊里糊涂的博客
 description: 
 meta_description: "foolchen"
 
@@ -14,7 +14,7 @@ permalink: /:title
 
 # Details for the RSS feed generator
 url:            'foolchen.github.io'
-author:         'foolchen'
+author:         '糊里糊涂'
 
 
 gems: [jekyll-paginate,kramdown]
