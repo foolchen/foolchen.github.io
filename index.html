@@ -35,11 +35,12 @@ archives: 'archives.html'
     <article class="post">
         <header class="post-header">
             <span class="post-meta"><time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time> {{!tags prefix="on "}}</span>
-            <h2 class="post-title"><a href="{{ post.url}}">{{ post.title }}</a></h2>
+            <!-- <h2 class="post-title"><a href="{{ post.url}}">{{ post.title }}</a></h2> -->
+            <h2 class="post-title" style="font-size: 25px"><a href="{{ post.url}}">{{ post.title }}</a></h2>
 
         </header>
-        <section class="post-excerpt">
-            {{post.excerpt}}
+        <section class="post-excerpt" style="font-size: 18px">
+            {{post.excerpt | strip_html}}<!--此处使用strip_html去除html标签,防止摘要页显示异常-->
         </section>
     </article>
 
